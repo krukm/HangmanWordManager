@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:JH4_workmanager_mkruk="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/save"
+        android:title="save"
+        JH4_workmanager_mkruk:showAsAction="always" />
+
+    <item
+        android:id="@+id/open_file"
+        android:title="open"
+        JH4_workmanager_mkruk:showAsAction="always" />
+
+    <item
+        android:id="@+id/new_file"
+        android:title="new"
+        JH4_workmanager_mkruk:showAsAction="always" />
+
+    <item
+        android:id="@+id/delete_file"
+        android:title="delete"
+        JH4_workmanager_mkruk:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/sort_words"
+        android:title="Sort Words"
+        JH4_workmanager_mkruk:showAsAction="never" />
+
+    <item
+        android:id="@+id/insert_at_front"
+        android:title="Insert at Front"
+        JH4_workmanager_mkruk:showAsAction="never" />
+
+    <item
+        android:id="@+id/insert_at_end"
+        android:title="Insert at End"
+        JH4_workmanager_mkruk:showAsAction="never" />
+
+</menu>
